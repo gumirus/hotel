@@ -22,7 +22,6 @@ module.exports = {
     quotes: ["error", "double", { allowTemplateLiterals: true }],
     state: ["off"],
     handleToggle: ["off"],
-    "web-vitals": ["off"],
     "multiline-ternary": ["off"],
     "no-unused-vars": ["off"],
     "react/no-unknown-property": ["off"],
