@@ -1,8 +1,6 @@
 import React from "react";
-import sun from "./theme/sun.png";
-import Welcome from "./welcome";
-
-const App = () => (
+import sun from ".././assets/img/sun.png";
+const Welcome = () => (
   <div
     style={{
       backgroundImage: `url(${sun})`,
@@ -10,8 +8,8 @@ const App = () => (
       height: "100vh",
     }}
   >
-    <Welcome />
+    <h1>Добро пожаловать!</h1>
   </div>
 );
 
-export default App;
+export default Welcome;
