@@ -1,5 +1,6 @@
 import React from "react";
 import home from "../assets/img/jpeg/home.jpg";
+import Banner from "../components/banner/banner";
 
 const Home = () => (
   <div
@@ -7,9 +8,12 @@ const Home = () => (
       backgroundImage: `url(${home})`,
       backgroundSize: "cover",
       height: "100vh",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
     }}
   >
-    <h1 className="center">Добро пожаловать!</h1>
+    <Banner title="Welcome!" />
   </div>
 );
 
