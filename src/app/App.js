@@ -1,17 +1,17 @@
 import React from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
-import NavBar from "./components/navBar";
-import Welcome from "./layouts/welcome";
-import Rooms from "./layouts/rooms";
-import Service from "./layouts/service";
+import NavBar from "../components/navBar/navBar.jsx";
+import Home from "../pages/home.jsx";
+import Rooms from "../pages/rooms.jsx";
+import Services from "../components/services/services.jsx";
 function App() {
   return (
     <div>
       <NavBar />
       <Switch>
-        <Route path="/welcome/" component={Service} />
+        <Route path="/" exact component={Home} />
         <Route path="/rooms/" component={Rooms} />
-        <Route path="/" exact component={Welcome} />
+        <Route path="/servises/" component={Services} />
         <Redirect to="/" />
       </Switch>
     </div>
