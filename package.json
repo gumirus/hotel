@@ -12,6 +12,8 @@
     "eslint": "^8.33.0",
     "eslint-plugin-react": "^7.32.2",
     "eslintrc": "^1.0.6",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0",
     "npx": "^10.2.2",
     "prettier": "^2.8.3",
     "react": "^18.2.0",
@@ -25,6 +27,8 @@
     "webpack": "^5.75.0"
   },
   "scripts": {
+    "start app": "node app.js",
+    "server": "nodemon app.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
@@ -52,7 +56,9 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "concurrently": "^7.6.0",
+    "gh-pages": "^5.0.0",
+    "nodemon": "^2.0.20"
   },
   "description": "Graduation project, Hotel.",
   "main": "app.js",
