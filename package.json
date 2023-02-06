@@ -53,5 +53,21 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
+  },
+  "description": "Graduation project, Hotel.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gumirus/hotel.git"
+  },
+  "keywords": [
+    "project",
+    "hotel",
+    "react"
+  ],
+  "author": "Ruslan Gumirov <gumirus@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gumirus/hotel/issues"
   }
 }
