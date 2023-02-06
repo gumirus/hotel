@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.1.0",
     "bootstrap-icons": "^1.10.3",
+    "config": "^3.3.9",
     "eslint": "^8.33.0",
     "eslint-plugin-react": "^7.32.2",
     "eslintrc": "^1.0.6",
@@ -27,7 +28,7 @@
     "webpack": "^5.75.0"
   },
   "scripts": {
-    "start app": "node app.js",
+    "start_app": "node app.js",
     "server": "nodemon app.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
