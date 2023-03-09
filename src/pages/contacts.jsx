@@ -1,6 +1,8 @@
 import React from "react";
 import contacts from "../assets/img/jpeg/conacts.jpeg";
-import Banner from "../components/banner/banner";
+import ContactForm from "../components/banner/contactForm";
+import HotelInfo from "../components/banner/hotelInfo";
+// import BaliMap from "../components/banner/baliMap";
 
 const Contacts = () => (
   <div
@@ -13,7 +15,9 @@ const Contacts = () => (
       alignItems: "center",
     }}
   >
-    {/* <Banner title="Contact" /> */}
+    <ContactForm />
+    <HotelInfo />
+    {/* <BaliMap /> */}
   </div>
 );
 

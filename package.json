@@ -10,10 +10,10 @@
     "bootstrap": "^5.1.0",
     "bootstrap-icons": "^1.10.3",
     "config": "^3.3.9",
-    "eslint": "^8.33.0",
     "eslint-plugin-react": "^7.32.2",
     "eslintrc": "^1.0.6",
     "express": "^4.18.2",
+    "google-map-react": "^2.2.0",
     "mongoose": "^6.9.0",
     "npx": "^10.2.2",
     "prettier": "^2.8.3",
@@ -58,6 +58,7 @@
   },
   "devDependencies": {
     "concurrently": "^7.6.0",
+    "eslint": "^8.35.0",
     "gh-pages": "^5.0.0",
     "nodemon": "^2.0.20"
   },

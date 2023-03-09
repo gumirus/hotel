@@ -1,5 +1,6 @@
 import React from "react";
 import room from "../assets/img/jpeg/room-1.jpeg";
+import RoomSelection from "../components/selections/roomSelection";
 
 const Rooms = () => (
   <div
@@ -9,7 +10,7 @@ const Rooms = () => (
       height: "100vh",
     }}
   >
-    <h1>Комната</h1>
+    <RoomSelection />
   </div>
 );
 

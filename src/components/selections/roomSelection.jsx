@@ -1,5 +1,5 @@
 import React from "react";
-import RoomCard from "../components/cards/roomCard";
+import RoomCard from "../cards/roomCard";
 
 const RoomSelection = () => {
   const rooms = [
