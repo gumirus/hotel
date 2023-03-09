@@ -1,0 +1,13 @@
+<svg viewBox="0 0 250 36.99" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .agori-gumirus {
+      fill: #8f00ff;
+      font-size: 28px;
+      font-weight: bold;
+      font-family: sans-serif;
+      text-shadow: 2px 2px 2px #000000;
+    }
+  </style>
+  <text x="0" y="28" class="agori-gumirus">Agori</text>
+  <text x="112" y="28" class="agori-gumirus">Gumirus</text>
+</svg>
