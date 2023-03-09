@@ -8,6 +8,6 @@
       text-shadow: 2px 2px 2px #000000;
     }
   </style>
-  <text x="0" y="28" class="agori-gumirus">Agori</text>
+  <text x="30" y="28" class="agori-gumirus">Agori</text>
   <text x="112" y="28" class="agori-gumirus">Gumirus</text>
 </svg>
